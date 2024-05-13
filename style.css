@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+.header {
+    background-color: red;
+    color: #fff;
+    
+    padding: 1rem;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+.intro {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.pizza-images {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.pizza-images img {
+    max-width: 300px;
+    border-radius: 10px;
+}
+.footer {
+    background-color: green;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+a{
+
+}
